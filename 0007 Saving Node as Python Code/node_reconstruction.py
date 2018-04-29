@@ -992,6 +992,7 @@ hou_parm.setAutoscope(False)
 hou_node.setExpressionLanguage(hou.exprLanguage.Hscript)
 
 hou_node.setUserData("wirestyle", "rounded")
+hou_node.setUserData("___Version___", "16.5.439")
 if hasattr(hou_node, "syncNodeVersionIfNeeded"):
     hou_node.syncNodeVersionIfNeeded("16.5.439")
 # Update the parent node.
@@ -1149,6 +1150,7 @@ hou_parm.setAutoscope(False)
 
 hou_node.setExpressionLanguage(hou.exprLanguage.Hscript)
 
+hou_node.setUserData("___Version___", "16.5.439")
 if hasattr(hou_node, "syncNodeVersionIfNeeded"):
     hou_node.syncNodeVersionIfNeeded("16.5.439")
 # Update the parent node.
@@ -1509,6 +1511,7 @@ hou_parm.setAutoscope(False)
 
 hou_node.setExpressionLanguage(hou.exprLanguage.Hscript)
 
+hou_node.setUserData("___Version___", "16.5.439")
 if hasattr(hou_node, "syncNodeVersionIfNeeded"):
     hou_node.syncNodeVersionIfNeeded("16.5.439")
 # Update the parent node.
@@ -2184,9 +2187,9 @@ hou_parm.setAutoscope(False)
 
 hou_node.setExpressionLanguage(hou.exprLanguage.Hscript)
 
-hou_node.setUserData("___Version___", "3")
-hou_node.setUserData("___toolcount___", "2")
 hou_node.setUserData("___toolid___", "geometry_voronoifracture")
+hou_node.setUserData("___toolcount___", "2")
+hou_node.setUserData("___Version___", "3")
 if hasattr(hou_node, "syncNodeVersionIfNeeded"):
     hou_node.syncNodeVersionIfNeeded("3")
 # Code to establish connections for /obj/geo1/scatter1
